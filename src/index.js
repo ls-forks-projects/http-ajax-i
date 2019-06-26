@@ -19,14 +19,12 @@ class App extends React.Component {
 					items: response.data
 				})
 			})
-			.then(() => {
-				return axios.get('http://localhost:3333/')
-			})
+			.then(() => axios.get('http://localhost:3333'))
 			.then(response => {
 				console.log(response.data)
 			})
 			.catch(err => {
-				console.log('Error:', err)
+				console.log('Error', err)
 			})
 	}
 
