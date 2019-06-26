@@ -36,7 +36,7 @@ class App extends React.Component {
 		return (
 			<div className="App">
 				<nav>
-					<h1 className="store-header">Jason's Trinkets</h1>
+					<h1 className="store-header">Trinket's Trinkets</h1>
 					<div className="nav-links">
 						<Link to="/">Home</Link>
 						<Link to="/trinkets">Trinkets</Link>
